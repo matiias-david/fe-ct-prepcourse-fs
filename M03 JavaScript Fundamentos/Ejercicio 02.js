@@ -29,7 +29,7 @@ resta(1, 2)
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
-   resultado = x / y;
+   var resultado = x / y;
    return resultado;
 }
 divide(2, 2)
@@ -37,7 +37,7 @@ divide(2, 2)
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
-   resultado = x * y;
+   var resultado = x * y;
    return resultado;
 }
 multiplica(1, 1)
@@ -45,7 +45,7 @@ multiplica(1, 1)
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
-   resultado = x % y;
+   var resultado = x % y;
    return resultado;
 } 
 obtenerResto(2, 2);
